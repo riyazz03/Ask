@@ -1,3 +1,4 @@
+import 'package:ask/widgets/side_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,14 +9,12 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Row(
         children: [
-          //side navbar
-
+          SideBar(),
           Column(
             children: [
               //search section
 
               //footer
-              
             ],
           )
         ],
