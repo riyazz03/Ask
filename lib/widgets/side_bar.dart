@@ -22,7 +22,7 @@ class _SideBarState extends State<SideBar> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const SizedBox(
-            height: 16,
+            height: 21,
           ),
           Icon(
             Icons.auto_awesome_mosaic,
